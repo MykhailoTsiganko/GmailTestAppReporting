@@ -3,7 +3,7 @@ package com.epam.lab.gmail.elements;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-import com.epam.lab.gmail.drivers.DriverManager;
+import com.epam.lab.gmail.utils.DriverManager;
 
 public class InputText extends Element {
 

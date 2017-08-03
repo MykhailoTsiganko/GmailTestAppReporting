@@ -1,4 +1,4 @@
-package com.epam.lab.gmail.prop;
+package com.epam.lab.gmail.utils;
 
 import java.io.FileInputStream;
 import java.util.Properties;

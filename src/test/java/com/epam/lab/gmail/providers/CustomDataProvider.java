@@ -5,8 +5,8 @@ import java.io.File;
 import org.testng.annotations.DataProvider;
 
 import com.epam.lab.gmail.models.User;
-import com.epam.lab.gmail.prop.csv.CSVUnmarshaller;
-import com.epam.lab.gmail.prop.csv.exeptions.CSVUnmurshalException;
+import com.epam.lab.gmail.utils.csv.CSVUnmarshaller;
+import com.epam.lab.gmail.utils.csv.exeption.CSVUnmurshalException;
 
 public class CustomDataProvider {
 

@@ -13,12 +13,12 @@ import org.testng.annotations.Test;
 
 import com.epam.lab.gmail.bisnes_objects.GmailBO;
 import com.epam.lab.gmail.bisnes_objects.LoginBO;
-import com.epam.lab.gmail.drivers.DriverManager;
 import com.epam.lab.gmail.listeners.LoggerListener;
 import com.epam.lab.gmail.models.Message;
 import com.epam.lab.gmail.models.User;
-import com.epam.lab.gmail.prop.DriverPropertisLoader;
 import com.epam.lab.gmail.providers.CustomDataProvider;
+import com.epam.lab.gmail.utils.DriverManager;
+import com.epam.lab.gmail.utils.DriverPropertisLoader;
 
 @Listeners(LoggerListener.class)
 public class GmailTestNegative {
@@ -34,7 +34,7 @@ public class GmailTestNegative {
 	}
 
 	@Test(dataProviderClass = CustomDataProvider.class, dataProvider = "getUsers")
-	public void markMessagesToImportantAndDelete(User user) {
+	public void markAndDelete(User user) {
 
 		LoginBO loginBO = new LoginBO();
 
@@ -45,8 +45,6 @@ public class GmailTestNegative {
 		List<Message> markedMessagesList = gmailBo.markMessagesAsImportant(3);
 
 		assertNotNull(markedMessagesList);
-
-		gmailBo.openImportantMesssagesList();
 
 		gmailBo.deleteMessages(markedMessagesList);
 

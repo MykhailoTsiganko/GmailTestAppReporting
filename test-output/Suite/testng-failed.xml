@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.epam.lab.gmail.listeners.LoggerListener"/>
-  </listeners>
   <test name="Test(failed)">
     <classes>
       <class name="com.epam.lab.gmail.GmailTestNegative">
         <methods>
           <include name="setUp"/>
-          <include name="markMessagesToImportantAndDelete" invocation-numbers="0"/>
+          <include name="markAndDelete" invocation-numbers="0"/>
           <include name="after"/>
         </methods>
       </class> <!-- com.epam.lab.gmail.GmailTestNegative -->

@@ -11,9 +11,6 @@ public class LoggerListener implements ITestListener{
 	@Override
 	public void onTestStart(ITestResult result) {
 		logger.info(result.toString());
-		
-		
-		
 	}
 
 	@Override

@@ -1,4 +1,4 @@
-package com.epam.lab.gmail.drivers;
+package com.epam.lab.gmail.utils;
 
 import java.util.ArrayList;
 import java.util.List;

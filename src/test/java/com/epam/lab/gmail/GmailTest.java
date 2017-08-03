@@ -14,12 +14,12 @@ import org.testng.annotations.Test;
 
 import com.epam.lab.gmail.bisnes_objects.GmailBO;
 import com.epam.lab.gmail.bisnes_objects.LoginBO;
-import com.epam.lab.gmail.drivers.DriverManager;
 import com.epam.lab.gmail.listeners.LoggerListener;
 import com.epam.lab.gmail.models.Message;
 import com.epam.lab.gmail.models.User;
-import com.epam.lab.gmail.prop.DriverPropertisLoader;
 import com.epam.lab.gmail.providers.CustomDataProvider;
+import com.epam.lab.gmail.utils.DriverManager;
+import com.epam.lab.gmail.utils.DriverPropertisLoader;
 
 @Listeners(LoggerListener.class)
 public class GmailTest {

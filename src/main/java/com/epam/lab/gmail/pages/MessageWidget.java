@@ -11,8 +11,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.epam.lab.gmail.decorator.ElementDecorator;
-import com.epam.lab.gmail.drivers.DriverManager;
 import com.epam.lab.gmail.elements.Label;
+import com.epam.lab.gmail.utils.DriverManager;
 
 public class MessageWidget {
 	private static Logger logger = Logger.getLogger(NavigationMenu.class);

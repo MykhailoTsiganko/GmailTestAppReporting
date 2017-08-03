@@ -1,4 +1,4 @@
-package com.epam.lab.gmail.prop.csv.exeptions;
+package com.epam.lab.gmail.utils.csv.exeption;
 
 public class CSVUnmurshalException extends Exception {
 

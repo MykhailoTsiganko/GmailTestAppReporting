@@ -7,8 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.epam.lab.gmail.decorator.ElementDecorator;
-import com.epam.lab.gmail.drivers.DriverManager;
 import com.epam.lab.gmail.elements.Button;
+import com.epam.lab.gmail.utils.DriverManager;
 
 public class EditMenu {
     private static Logger logger = Logger.getLogger(NavigationMenu.class);

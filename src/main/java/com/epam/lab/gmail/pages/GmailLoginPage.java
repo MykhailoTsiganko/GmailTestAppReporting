@@ -8,9 +8,9 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.epam.lab.gmail.decorator.ElementDecorator;
-import com.epam.lab.gmail.drivers.DriverManager;
 import com.epam.lab.gmail.elements.Button;
 import com.epam.lab.gmail.elements.InputText;
+import com.epam.lab.gmail.utils.DriverManager;
 
 public class GmailLoginPage {
 	public static final String LOGIN_PAGE_URL = "https://mail.google.com/";

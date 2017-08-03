@@ -1,4 +1,4 @@
-package com.epam.lab.gmail.prop.csv;
+package com.epam.lab.gmail.utils.csv;
 
 import java.io.File;
 import java.io.FileReader;
@@ -14,9 +14,9 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 import org.apache.log4j.Logger;
 
-import com.epam.lab.gmail.prop.csv.anno.CSVElement;
-import com.epam.lab.gmail.prop.csv.anno.CSVRootElement;
-import com.epam.lab.gmail.prop.csv.exeptions.CSVUnmurshalException;
+import com.epam.lab.gmail.utils.csv.anno.CSVElement;
+import com.epam.lab.gmail.utils.csv.anno.CSVRootElement;
+import com.epam.lab.gmail.utils.csv.exeption.CSVUnmurshalException;
 
 public class CSVUnmarshaller {
 	private static Logger logger = Logger.getLogger(CSVUnmarshaller.class);

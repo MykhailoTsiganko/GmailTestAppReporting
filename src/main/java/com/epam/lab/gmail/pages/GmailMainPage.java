@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.epam.lab.gmail.drivers.DriverManager;
+import com.epam.lab.gmail.utils.DriverManager;
 
 public class GmailMainPage {
 	private static Logger logger = Logger.getLogger(GmailMainPage.class);
