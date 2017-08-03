@@ -6,7 +6,7 @@
       <class name="com.epam.lab.gmail.GmailTestNegative">
         <methods>
           <include name="setUp"/>
-          <include name="markAndDelete" invocation-numbers="0"/>
+          <include name="markAndDelete" invocation-numbers="0 1 2 3 4"/>
           <include name="after"/>
         </methods>
       </class> <!-- com.epam.lab.gmail.GmailTestNegative -->
