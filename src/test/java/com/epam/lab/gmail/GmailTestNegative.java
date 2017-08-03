@@ -36,14 +36,18 @@ public class GmailTestNegative {
 	@Test(dataProviderClass = CustomDataProvider.class, dataProvider = "getUsers")
 	public void markAndDelete(User user) {
 
-		LoginBO loginBO = new LoginBO();
+		logger.info(user.toString());
 
+		LoginBO loginBO = new LoginBO();
+		
 		loginBO.loginAs(user);
 
 		GmailBO gmailBo = new GmailBO();
 
 		List<Message> markedMessagesList = gmailBo.markMessagesAsImportant(3);
-
+		
+		logger.info("Marked Messages" + markedMessagesList.toString());
+		
 		assertNotNull(markedMessagesList);
 
 		gmailBo.deleteMessages(markedMessagesList);

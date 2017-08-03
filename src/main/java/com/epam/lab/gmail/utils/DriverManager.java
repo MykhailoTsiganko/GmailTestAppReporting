@@ -15,7 +15,7 @@ public class DriverManager {
 	private static ThreadLocal<WebDriver> thredLocalInstace = new ThreadLocal<WebDriver>();
 
 	public static WebDriver getInstance() {
-		logger.info("getInstance method");
+		logger.debug("getInstance method");
 
 		if (null == thredLocalInstace.get()) {
 			WebDriver driver = new ChromeDriver();
@@ -27,7 +27,7 @@ public class DriverManager {
 	}
 
 	public static List<WebDriver> getDriversPool() {
-		logger.info("getDriversPool method");
+		logger.debug("getDriversPool method");
 		return driverPool;
 	}
 

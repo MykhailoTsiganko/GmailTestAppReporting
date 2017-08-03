@@ -2,36 +2,912 @@
 <testng-results skipped="0" failed="5" ignored="0" total="10" passed="5">
   <reporter-output>
     <line>
-      <![CDATA[<br><span style='color:red'>2017-08-03 16:50:53 WARN  LoggerListener:24 - [TestResult name=markAndDelete status=FAILURE method=GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911] output={null}]
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  GmailTest:33 - setUp
 </span>]]>
     </line>
     <line>
-      <![CDATA[<br><span style='color:red'>2017-08-03 16:51:29 WARN  LoggerListener:24 - [TestResult name=markAndDelete status=FAILURE method=GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911] output={null}]
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:25 - getObjects
 </span>]]>
     </line>
     <line>
-      <![CDATA[<br><span style='color:red'>2017-08-03 16:52:00 WARN  LoggerListener:24 - [TestResult name=markAndDelete status=FAILURE method=GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911] output={null}]
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
 </span>]]>
     </line>
     <line>
-      <![CDATA[<br><span style='color:red'>2017-08-03 16:52:30 WARN  LoggerListener:24 - [TestResult name=markAndDelete status=FAILURE method=GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911] output={null}]
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
 </span>]]>
     </line>
     <line>
-      <![CDATA[<br><span style='color:red'>2017-08-03 16:53:02 WARN  LoggerListener:24 - [TestResult name=markAndDelete status=FAILURE method=GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911] output={null}]
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTest]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:25 - getObjects
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTest]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:25 - getObjects
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTest]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:25 - getObjects
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTest]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:25 - getObjects
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTest]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  GmailTest:39 - User [login=Micle.AutomationBudda2017@gmail.com, password=TheSkyIsShiningBricly1]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  GmailTest:39 - User [login=taras.tsyhanko.tk.2014@lpnu.ua, password=05.10.1996]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  GmailTest:39 - User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  GmailTest:39 - User [login=novacug.cucumber@gmail.com, password=GigurdaZargeng38]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  GmailTest:39 - User [login=SelTestTsyganko@gmail.com, password=Selenium1]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:34 INFO  GmailTest:49 - Marked Messages[Message [sender=Test Test, topic=1501024142181This is, date=26 липня 2017 р. о 02:09], Message [sender=Test Test, topic=1501023813534This is, date=26 липня 2017 р. о 02:03], Message [sender=Test Test, topic=1501023751715This is, date=26 липня 2017 р. о 02:02]]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:42 INFO  GmailTest:49 - Marked Messages[Message [sender=Test Test, topic=1501023975691This is, date=26 липня 2017 р. о 02:06], Message [sender=Test Test, topic=1501023793643This is, date=26 липня 2017 р. о 02:03], Message [sender=Test Test, topic=1501023751715This is, date=26 липня 2017 р. о 02:02]]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:45 INFO  GmailTest:49 - Marked Messages[Message [sender=Test Test, topic=1501025161992This is, date=26 липня 2017 р. о 02:26], Message [sender=Test Test, topic=1501025140894This is, date=26 липня 2017 р. о 02:25], Message [sender=Test Test, topic=1501025119729This is, date=26 липня 2017 р. о 02:25]]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:47 INFO  GmailTest:49 - Marked Messages[Message [sender=Test Test, topic=1501022387770This is, date=26 липня 2017 р. о 01:39], Message [sender=Test Test, topic=1501022159449This is, date=26 липня 2017 р. о 01:36], Message [sender=Test Test, topic=Hey, whats up?, date=26 липня 2017 р. о 01:32]]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:47 INFO  GmailTest:49 - Marked Messages[Message [sender=Test Test, topic=1501023731389This is, date=26 July 2017 at 02:02], Message [sender=Test Test, topic=1501023710768This is, date=26 July 2017 at 02:01], Message [sender=Test Test, topic=1501023690269This is, date=26 July 2017 at 02:01]]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:47 INFO  LoggerListener:18 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]SECCES
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:48 INFO  LoggerListener:18 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]SECCES
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:50 INFO  LoggerListener:18 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]SECCES
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:52 INFO  LoggerListener:18 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]SECCES
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:55 INFO  LoggerListener:18 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]SECCES
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:25 - getObjects
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  GmailTestNegative:32 - setUp
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:25 - getObjects
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTestNegative]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:25 - getObjects
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTestNegative]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:25 - getObjects
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTestNegative]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:25 - getObjects
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTestNegative]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:25 - getObjects
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:67 - getElement
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  CSVUnmarshaller:94 - invokeMethod
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTestNegative]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  GmailTestNegative:39 - User [login=taras.tsyhanko.tk.2014@lpnu.ua, password=05.10.1996]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  GmailTestNegative:39 - User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  GmailTestNegative:39 - User [login=novacug.cucumber@gmail.com, password=GigurdaZargeng38]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  GmailTestNegative:39 - User [login=SelTestTsyganko@gmail.com, password=Selenium1]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  GmailTestNegative:39 - User [login=Micle.AutomationBudda2017@gmail.com, password=TheSkyIsShiningBricly1]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:12:12 INFO  GmailTestNegative:49 - Marked Messages[Message [sender=Test Test, topic=1501023564544This is, date=26 липня 2017 р. о 01:59], Message [sender=Test Test, topic=1501023543239This is, date=26 липня 2017 р. о 01:59], Message [sender=Test Test, topic=1501023389753This is, date=26 липня 2017 р. о 01:56]]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:red'>2017-08-03 19:12:19 WARN  LoggerListener:24 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTESTNEGATIVE]FAILURE
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:red'>2017-08-03 19:12:19 WARN  LoggerListener:25 - java.lang.AssertionError: expected [true] but found [false]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:12:20 INFO  GmailTestNegative:49 - Marked Messages[Message [sender=Test Test, topic=1501023608006This is, date=26 липня 2017 р. о 02:00], Message [sender=Test Test, topic=1501023389753This is, date=26 липня 2017 р. о 01:56], Message [sender=Test Test, topic=1501023364936This is, date=26 липня 2017 р. о 01:56]]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:12:21 INFO  GmailTestNegative:49 - Marked Messages[Message [sender=Test Test, topic=1501023669744This is, date=26 July 2017 at 02:01], Message [sender=Test Test, topic=1501023648305This is, date=26 July 2017 at 02:00], Message [sender=Test Test, topic=1501023608006This is, date=26 July 2017 at 02:00]]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:12:22 INFO  GmailTestNegative:49 - Marked Messages[Message [sender=Тарас Циганко, topic=Doteper, date=26 липня 2017 р. о 01:13], Message [sender=Тарас Циганко, topic=fislafksdlfkkadslfklaslsllll, date=26 липня 2017 р. о 01:12], Message [sender=Тарас Циганко, topic=Dich, date=26 липня 2017 р. о 01:12]]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:green'>2017-08-03 19:12:22 INFO  GmailTestNegative:49 - Marked Messages[Message [sender=Test Test, topic=1501025098614This is, date=26 липня 2017 р. о 02:25], Message [sender=Test Test, topic=1501025076499This is, date=26 липня 2017 р. о 02:24], Message [sender=Test Test, topic=1501025054972This is, date=26 липня 2017 р. о 02:24]]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:red'>2017-08-03 19:12:23 WARN  LoggerListener:24 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTESTNEGATIVE]FAILURE
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:red'>2017-08-03 19:12:23 WARN  LoggerListener:25 - java.lang.AssertionError: expected [true] but found [false]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:red'>2017-08-03 19:12:24 WARN  LoggerListener:24 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTESTNEGATIVE]FAILURE
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:red'>2017-08-03 19:12:24 WARN  LoggerListener:25 - java.lang.AssertionError: expected [true] but found [false]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:red'>2017-08-03 19:12:27 WARN  LoggerListener:24 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTESTNEGATIVE]FAILURE
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:red'>2017-08-03 19:12:27 WARN  LoggerListener:25 - java.lang.AssertionError: expected [true] but found [false]
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:red'>2017-08-03 19:12:27 WARN  LoggerListener:24 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTESTNEGATIVE]FAILURE
+</span>]]>
+    </line>
+    <line>
+      <![CDATA[<br><span style='color:red'>2017-08-03 19:12:27 WARN  LoggerListener:25 - java.lang.AssertionError: expected [true] but found [false]
 </span>]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="315700" started-at="2017-08-03T13:47:47Z" finished-at="2017-08-03T13:53:03Z">
+  <suite name="Suite" duration-ms="72121" started-at="2017-08-03T16:11:16Z" finished-at="2017-08-03T16:12:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="315700" started-at="2017-08-03T13:47:47Z" finished-at="2017-08-03T13:53:03Z">
+    <test name="Test" duration-ms="72121" started-at="2017-08-03T16:11:16Z" finished-at="2017-08-03T16:12:28Z">
       <class name="com.epam.lab.gmail.GmailTestNegative">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="setUp" is-config="true" duration-ms="0" started-at="2017-08-03T16:50:24Z" finished-at="2017-08-03T16:50:24Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="setUp" is-config="true" duration-ms="1" started-at="2017-08-03T19:11:56Z" finished-at="2017-08-03T19:11:56Z">
           <reporter-output>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  GmailTestNegative:32 - setUp
+</span>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="markAndDelete" duration-ms="29006" started-at="2017-08-03T16:50:24Z" data-provider="getUsers" finished-at="2017-08-03T16:50:53Z">
+        <test-method status="FAIL" signature="markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="markAndDelete" duration-ms="23134" started-at="2017-08-03T19:11:56Z" data-provider="getUsers" finished-at="2017-08-03T19:12:19Z">
           <params>
             <param index="0">
               <value>
@@ -49,7 +925,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
 	at org.testng.Assert.assertTrue(Assert.java:51)
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:51)
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:55)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -57,213 +933,41 @@
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[<br><span style='color:red'>2017-08-03 16:50:53 WARN  LoggerListener:24 - [TestResult name=markAndDelete status=FAILURE method=GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911] output={null}]
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTestNegative]
 </span>]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- markAndDelete -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="after" is-config="true" duration-ms="869" started-at="2017-08-03T16:50:53Z" finished-at="2017-08-03T16:50:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="FAIL" signature="markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="markAndDelete" duration-ms="35024" started-at="2017-08-03T16:50:54Z" data-provider="getUsers" finished-at="2017-08-03T16:51:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[User [login=SelTestTsyganko@gmail.com, password=Selenium1]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertTrue(Assert.java:41)
-	at org.testng.Assert.assertTrue(Assert.java:51)
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
             <line>
-              <![CDATA[<br><span style='color:red'>2017-08-03 16:51:29 WARN  LoggerListener:24 - [TestResult name=markAndDelete status=FAILURE method=GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911] output={null}]
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  GmailTestNegative:39 - User [login=taras.tsyhanko.tk.2014@lpnu.ua, password=05.10.1996]
 </span>]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- markAndDelete -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="after" is-config="true" duration-ms="848" started-at="2017-08-03T16:51:29Z" finished-at="2017-08-03T16:51:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="FAIL" signature="markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="markAndDelete" duration-ms="29796" started-at="2017-08-03T16:51:30Z" data-provider="getUsers" finished-at="2017-08-03T16:52:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[User [login=novacug.cucumber@gmail.com, password=GigurdaZargeng38]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertTrue(Assert.java:41)
-	at org.testng.Assert.assertTrue(Assert.java:51)
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
             <line>
-              <![CDATA[<br><span style='color:red'>2017-08-03 16:52:00 WARN  LoggerListener:24 - [TestResult name=markAndDelete status=FAILURE method=GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911] output={null}]
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:12:12 INFO  GmailTestNegative:49 - Marked Messages[Message [sender=Test Test, topic=1501023564544This is, date=26 липня 2017 р. о 01:59], Message [sender=Test Test, topic=1501023543239This is, date=26 липня 2017 р. о 01:59], Message [sender=Test Test, topic=1501023389753This is, date=26 липня 2017 р. о 01:56]]
 </span>]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- markAndDelete -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="after" is-config="true" duration-ms="911" started-at="2017-08-03T16:52:00Z" finished-at="2017-08-03T16:52:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="FAIL" signature="markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="markAndDelete" duration-ms="29664" started-at="2017-08-03T16:52:01Z" data-provider="getUsers" finished-at="2017-08-03T16:52:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertTrue(Assert.java:41)
-	at org.testng.Assert.assertTrue(Assert.java:51)
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
             <line>
-              <![CDATA[<br><span style='color:red'>2017-08-03 16:52:30 WARN  LoggerListener:24 - [TestResult name=markAndDelete status=FAILURE method=GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911] output={null}]
+              <![CDATA[<br><span style='color:red'>2017-08-03 19:12:19 WARN  LoggerListener:24 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTESTNEGATIVE]FAILURE
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:red'>2017-08-03 19:12:19 WARN  LoggerListener:25 - java.lang.AssertionError: expected [true] but found [false]
 </span>]]>
             </line>
           </reporter-output>
         </test-method> <!-- markAndDelete -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="after" is-config="true" duration-ms="952" started-at="2017-08-03T16:52:30Z" finished-at="2017-08-03T16:52:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="FAIL" signature="markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="markAndDelete" duration-ms="30826" started-at="2017-08-03T16:52:31Z" data-provider="getUsers" finished-at="2017-08-03T16:53:02Z">
+        <test-method status="FAIL" signature="markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="markAndDelete" duration-ms="30641" started-at="2017-08-03T19:11:56Z" data-provider="getUsers" finished-at="2017-08-03T19:12:27Z">
           <params>
             <param index="0">
               <value>
@@ -281,7 +985,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
 	at org.testng.Assert.assertTrue(Assert.java:51)
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:51)
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:55)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -289,60 +993,251 @@
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[<br><span style='color:red'>2017-08-03 16:53:02 WARN  LoggerListener:24 - [TestResult name=markAndDelete status=FAILURE method=GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911] output={null}]
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTestNegative]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  GmailTestNegative:39 - User [login=Micle.AutomationBudda2017@gmail.com, password=TheSkyIsShiningBricly1]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:12:22 INFO  GmailTestNegative:49 - Marked Messages[Message [sender=Test Test, topic=1501025098614This is, date=26 липня 2017 р. о 02:25], Message [sender=Test Test, topic=1501025076499This is, date=26 липня 2017 р. о 02:24], Message [sender=Test Test, topic=1501025054972This is, date=26 липня 2017 р. о 02:24]]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:red'>2017-08-03 19:12:27 WARN  LoggerListener:24 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTESTNEGATIVE]FAILURE
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:red'>2017-08-03 19:12:27 WARN  LoggerListener:25 - java.lang.AssertionError: expected [true] but found [false]
 </span>]]>
             </line>
           </reporter-output>
         </test-method> <!-- markAndDelete -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="after" is-config="true" duration-ms="885" started-at="2017-08-03T16:53:02Z" finished-at="2017-08-03T16:53:03Z">
+        <test-method status="FAIL" signature="markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="markAndDelete" duration-ms="30821" started-at="2017-08-03T19:11:56Z" data-provider="getUsers" finished-at="2017-08-03T19:12:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User [login=SelTestTsyganko@gmail.com, password=Selenium1]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTestNegative]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  GmailTestNegative:39 - User [login=SelTestTsyganko@gmail.com, password=Selenium1]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:12:21 INFO  GmailTestNegative:49 - Marked Messages[Message [sender=Test Test, topic=1501023669744This is, date=26 July 2017 at 02:01], Message [sender=Test Test, topic=1501023648305This is, date=26 July 2017 at 02:00], Message [sender=Test Test, topic=1501023608006This is, date=26 July 2017 at 02:00]]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:red'>2017-08-03 19:12:27 WARN  LoggerListener:24 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTESTNEGATIVE]FAILURE
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:red'>2017-08-03 19:12:27 WARN  LoggerListener:25 - java.lang.AssertionError: expected [true] but found [false]
+</span>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- markAndDelete -->
+        <test-method status="FAIL" signature="markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="markAndDelete" duration-ms="27684" started-at="2017-08-03T19:11:56Z" data-provider="getUsers" finished-at="2017-08-03T19:12:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User [login=novacug.cucumber@gmail.com, password=GigurdaZargeng38]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTestNegative]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  GmailTestNegative:39 - User [login=novacug.cucumber@gmail.com, password=GigurdaZargeng38]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:12:22 INFO  GmailTestNegative:49 - Marked Messages[Message [sender=Тарас Циганко, topic=Doteper, date=26 липня 2017 р. о 01:13], Message [sender=Тарас Циганко, topic=fislafksdlfkkadslfklaslsllll, date=26 липня 2017 р. о 01:12], Message [sender=Тарас Циганко, topic=Dich, date=26 липня 2017 р. о 01:12]]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:red'>2017-08-03 19:12:24 WARN  LoggerListener:24 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTESTNEGATIVE]FAILURE
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:red'>2017-08-03 19:12:24 WARN  LoggerListener:25 - java.lang.AssertionError: expected [true] but found [false]
+</span>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- markAndDelete -->
+        <test-method status="FAIL" signature="markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="markAndDelete" duration-ms="26572" started-at="2017-08-03T19:11:56Z" data-provider="getUsers" finished-at="2017-08-03T19:12:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTestNegative]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:56 INFO  GmailTestNegative:39 - User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:12:20 INFO  GmailTestNegative:49 - Marked Messages[Message [sender=Test Test, topic=1501023608006This is, date=26 липня 2017 р. о 02:00], Message [sender=Test Test, topic=1501023389753This is, date=26 липня 2017 р. о 01:56], Message [sender=Test Test, topic=1501023364936This is, date=26 липня 2017 р. о 01:56]]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:red'>2017-08-03 19:12:23 WARN  LoggerListener:24 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTESTNEGATIVE]FAILURE
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:red'>2017-08-03 19:12:23 WARN  LoggerListener:25 - java.lang.AssertionError: expected [true] but found [false]
+</span>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- markAndDelete -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="after" is-config="true" duration-ms="1383" started-at="2017-08-03T19:12:19Z" finished-at="2017-08-03T19:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="after" is-config="true" duration-ms="1713" started-at="2017-08-03T19:12:23Z" finished-at="2017-08-03T19:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="after" is-config="true" duration-ms="1040" started-at="2017-08-03T19:12:24Z" finished-at="2017-08-03T19:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="after" is-config="true" duration-ms="898" started-at="2017-08-03T19:12:27Z" finished-at="2017-08-03T19:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@6536e911]" name="after" is-config="true" duration-ms="872" started-at="2017-08-03T19:12:27Z" finished-at="2017-08-03T19:12:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- com.epam.lab.gmail.GmailTestNegative -->
       <class name="com.epam.lab.gmail.GmailTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="setUp" is-config="true" duration-ms="0" started-at="2017-08-03T16:47:47Z" finished-at="2017-08-03T16:47:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="setUp" is-config="true" duration-ms="10" started-at="2017-08-03T19:11:16Z" finished-at="2017-08-03T19:11:16Z">
           <reporter-output>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  GmailTest:33 - setUp
+</span>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="markMessagesToImportantAndDelete" duration-ms="13015" started-at="2017-08-03T16:47:47Z" data-provider="getUsers" finished-at="2017-08-03T16:48:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[User [login=taras.tsyhanko.tk.2014@lpnu.ua, password=05.10.1996]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- markMessagesToImportantAndDelete -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="after" is-config="true" duration-ms="940" started-at="2017-08-03T16:48:00Z" finished-at="2017-08-03T16:48:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="markMessagesToImportantAndDelete" duration-ms="39972" started-at="2017-08-03T16:48:01Z" data-provider="getUsers" finished-at="2017-08-03T16:48:41Z">
+        <test-method status="PASS" signature="markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="markMessagesToImportantAndDelete" duration-ms="39454" started-at="2017-08-03T19:11:16Z" data-provider="getUsers" finished-at="2017-08-03T19:11:55Z">
           <params>
             <param index="0">
               <value>
@@ -351,13 +1246,25 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTest]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  GmailTest:39 - User [login=SelTestTsyganko@gmail.com, password=Selenium1]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:47 INFO  GmailTest:49 - Marked Messages[Message [sender=Test Test, topic=1501023731389This is, date=26 July 2017 at 02:02], Message [sender=Test Test, topic=1501023710768This is, date=26 July 2017 at 02:01], Message [sender=Test Test, topic=1501023690269This is, date=26 July 2017 at 02:01]]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:55 INFO  LoggerListener:18 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]SECCES
+</span>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- markMessagesToImportantAndDelete -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="after" is-config="true" duration-ms="957" started-at="2017-08-03T16:48:41Z" finished-at="2017-08-03T16:48:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="markMessagesToImportantAndDelete" duration-ms="32983" started-at="2017-08-03T16:48:42Z" data-provider="getUsers" finished-at="2017-08-03T16:49:15Z">
+        <test-method status="PASS" signature="markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="markMessagesToImportantAndDelete" duration-ms="33936" started-at="2017-08-03T19:11:16Z" data-provider="getUsers" finished-at="2017-08-03T19:11:50Z">
           <params>
             <param index="0">
               <value>
@@ -366,28 +1273,52 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTest]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  GmailTest:39 - User [login=novacug.cucumber@gmail.com, password=GigurdaZargeng38]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:47 INFO  GmailTest:49 - Marked Messages[Message [sender=Test Test, topic=1501022387770This is, date=26 липня 2017 р. о 01:39], Message [sender=Test Test, topic=1501022159449This is, date=26 липня 2017 р. о 01:36], Message [sender=Test Test, topic=Hey, whats up?, date=26 липня 2017 р. о 01:32]]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:50 INFO  LoggerListener:18 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]SECCES
+</span>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- markMessagesToImportantAndDelete -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="after" is-config="true" duration-ms="953" started-at="2017-08-03T16:49:15Z" finished-at="2017-08-03T16:49:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="markMessagesToImportantAndDelete" duration-ms="32238" started-at="2017-08-03T16:49:16Z" data-provider="getUsers" finished-at="2017-08-03T16:49:48Z">
+        <test-method status="PASS" signature="markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="markMessagesToImportantAndDelete" duration-ms="31099" started-at="2017-08-03T19:11:16Z" data-provider="getUsers" finished-at="2017-08-03T19:11:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]]]>
+                <![CDATA[User [login=taras.tsyhanko.tk.2014@lpnu.ua, password=05.10.1996]]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTest]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  GmailTest:39 - User [login=taras.tsyhanko.tk.2014@lpnu.ua, password=05.10.1996]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:34 INFO  GmailTest:49 - Marked Messages[Message [sender=Test Test, topic=1501024142181This is, date=26 липня 2017 р. о 02:09], Message [sender=Test Test, topic=1501023813534This is, date=26 липня 2017 р. о 02:03], Message [sender=Test Test, topic=1501023751715This is, date=26 липня 2017 р. о 02:02]]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:47 INFO  LoggerListener:18 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]SECCES
+</span>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- markMessagesToImportantAndDelete -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="after" is-config="true" duration-ms="899" started-at="2017-08-03T16:49:48Z" finished-at="2017-08-03T16:49:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="markMessagesToImportantAndDelete" duration-ms="34033" started-at="2017-08-03T16:49:49Z" data-provider="getUsers" finished-at="2017-08-03T16:50:23Z">
+        <test-method status="PASS" signature="markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="markMessagesToImportantAndDelete" duration-ms="36203" started-at="2017-08-03T19:11:16Z" data-provider="getUsers" finished-at="2017-08-03T19:11:52Z">
           <params>
             <param index="0">
               <value>
@@ -396,9 +1327,68 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTest]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  GmailTest:39 - User [login=Micle.AutomationBudda2017@gmail.com, password=TheSkyIsShiningBricly1]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:45 INFO  GmailTest:49 - Marked Messages[Message [sender=Test Test, topic=1501025161992This is, date=26 липня 2017 р. о 02:26], Message [sender=Test Test, topic=1501025140894This is, date=26 липня 2017 р. о 02:25], Message [sender=Test Test, topic=1501025119729This is, date=26 липня 2017 р. о 02:25]]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:52 INFO  LoggerListener:18 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]SECCES
+</span>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- markMessagesToImportantAndDelete -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="after" is-config="true" duration-ms="879" started-at="2017-08-03T16:50:23Z" finished-at="2017-08-03T16:50:24Z">
+        <test-method status="PASS" signature="markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="markMessagesToImportantAndDelete" duration-ms="32363" started-at="2017-08-03T19:11:16Z" data-provider="getUsers" finished-at="2017-08-03T19:11:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  LoggerListener:13 - [TestClass name=class com.epam.lab.gmail.GmailTest]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:16 INFO  GmailTest:39 - User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:42 INFO  GmailTest:49 - Marked Messages[Message [sender=Test Test, topic=1501023975691This is, date=26 липня 2017 р. о 02:06], Message [sender=Test Test, topic=1501023793643This is, date=26 липня 2017 р. о 02:03], Message [sender=Test Test, topic=1501023751715This is, date=26 липня 2017 р. о 02:02]]
+</span>]]>
+            </line>
+            <line>
+              <![CDATA[<br><span style='color:green'>2017-08-03 19:11:48 INFO  LoggerListener:18 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]SECCES
+</span>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- markMessagesToImportantAndDelete -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="after" is-config="true" duration-ms="3845" started-at="2017-08-03T19:11:47Z" finished-at="2017-08-03T19:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="after" is-config="true" duration-ms="2504" started-at="2017-08-03T19:11:48Z" finished-at="2017-08-03T19:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="after" is-config="true" duration-ms="980" started-at="2017-08-03T19:11:50Z" finished-at="2017-08-03T19:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="after" is-config="true" duration-ms="889" started-at="2017-08-03T19:11:52Z" finished-at="2017-08-03T19:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="after" is-config="true" duration-ms="910" started-at="2017-08-03T19:11:55Z" finished-at="2017-08-03T19:11:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->

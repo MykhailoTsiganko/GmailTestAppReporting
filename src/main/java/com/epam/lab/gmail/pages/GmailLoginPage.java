@@ -30,7 +30,7 @@ public class GmailLoginPage {
 	private Button submitButton;
 
 	public GmailLoginPage() {
-		logger.info("GmailLoginPage constructor");
+		logger.debug("GmailLoginPage constructor");
 		PageFactory.initElements(new ElementDecorator(DriverManager.getInstance()), this);
 	}
 
@@ -41,13 +41,13 @@ public class GmailLoginPage {
 	}
 
 	public void typeLoginAndSubmit(String login) {
-		logger.info("typeLoginAndSubmit method");
+		logger.debug("typeLoginAndSubmit method");
 		loginInput.sendKeys(login);
 		nextButton.click();
 	}
 
 	public void typePasswordAndSubmit(String password) {
-		logger.info("typePasswordAndSubmit method");
+		logger.debug("typePasswordAndSubmit method");
 		passwordInput.sendKeys(password);
 		submitButton.waitForVisability();
 		submitButton.scriptClick();

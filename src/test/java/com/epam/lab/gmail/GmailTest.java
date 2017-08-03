@@ -36,14 +36,17 @@ public class GmailTest {
 
 	@Test(dataProviderClass = CustomDataProvider.class, dataProvider = "getUsers")
 	public void markMessagesToImportantAndDelete(User user) {
+		logger.info(user.toString());
 
 		LoginBO loginBO = new LoginBO();
-
+		
 		loginBO.loginAs(user);
 
 		GmailBO gmailBo = new GmailBO();
 
 		List<Message> markedMessagesList = gmailBo.markMessagesAsImportant(3);
+		
+		logger.info("Marked Messages" + markedMessagesList.toString());
 
 		assertNotNull(markedMessagesList);
 

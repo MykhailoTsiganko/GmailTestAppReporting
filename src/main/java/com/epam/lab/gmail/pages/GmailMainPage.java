@@ -19,7 +19,7 @@ public class GmailMainPage {
 	private List<WebElement> messagesBox;
 
 	public GmailMainPage() {
-		logger.info("GmailMainPage");
+		logger.debug("GmailMainPage");
 
 		PageFactory.initElements(DriverManager.getInstance(), this);
 		navigationMenu = new NavigationMenu();
@@ -35,7 +35,7 @@ public class GmailMainPage {
 	}
 
 	public List<MessageWidget> getMessagesWidgets() {
-		logger.info("getMessagesModels");
+		logger.debug("getMessagesModels");
 		List<MessageWidget> messageModelList = new ArrayList<>(messagesBox.size());
 		for (WebElement element : messagesBox) {
 			messageModelList.add(new MessageWidget(element));

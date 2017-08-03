@@ -10,18 +10,19 @@ public class LoggerListener implements ITestListener{
 
 	@Override
 	public void onTestStart(ITestResult result) {
-		logger.info(result.toString());
+		logger.info(result.getTestClass());
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		logger.info(result.toString());
+		logger.info(result.getTestClass().toString().toUpperCase() + "SECCES");
 		
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		logger.warn(result.toString());
+		logger.warn(result.getTestClass().toString().toUpperCase() + "FAILURE");
+		logger.warn(result.getThrowable());
 		
 	}
 
@@ -39,14 +40,11 @@ public class LoggerListener implements ITestListener{
 
 	@Override
 	public void onStart(ITestContext context) {
-		logger.info(context.toString());
 		
 	}
 
 	@Override
 	public void onFinish(ITestContext context) {
-		logger.info(context.toString());
-
 		
 	}
 

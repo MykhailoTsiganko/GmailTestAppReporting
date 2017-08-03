@@ -19,7 +19,7 @@ public class GmailBO {
 	}
 
 	public List<Message> getMessageModels() {
-		logger.info("getMessages method");
+		logger.debug("getMessages method");
 		List<Message> messageList = new ArrayList<>();
 		for (MessageWidget messWidget : mainPage.getMessagesWidgets()) {
 			messageList.add(getMessage(messWidget));
@@ -28,7 +28,7 @@ public class GmailBO {
 	}
 
 	public List<Message> markMessagesAsImportant(int messagesToMurkNumber) {
-		logger.info("markMessagesAsImportant method");
+		logger.debug("markMessagesAsImportant method");
 		List<Message> markedMessagesList = new ArrayList<>();
 		int markedMessagesNumber = 0;
 		for (MessageWidget messageWidget : mainPage.getMessagesWidgets()) {
@@ -45,13 +45,13 @@ public class GmailBO {
 	}
 
 	public void openImportantMesssagesList() {
-		logger.info("openImportantMesssagesList metod");
+		logger.debug("openImportantMesssagesList metod");
 		mainPage.navigationMenu().clikOnMore();
 		mainPage.navigationMenu().clikOnImportant();
 	}
 
 	public void deleteMessages(List<Message> listToDelete) {
-		logger.info("deleteMessages method");
+		logger.debug("deleteMessages method");
 		int markedMessagesNumber = 0;
 		for (MessageWidget messWidget : mainPage.getMessagesWidgets()) {
 			if (listToDelete.contains(getMessage(messWidget))) {
@@ -66,7 +66,7 @@ public class GmailBO {
 	}
 
 	public boolean arePresent(List<Message> messagesList) {
-		logger.info("arePresent method");
+		logger.debug("arePresent method");
 		List<Message> presentMessagesList = getMessageModels();
 		boolean isPresent = false;
 		for (Message message : messagesList) {
@@ -79,7 +79,7 @@ public class GmailBO {
 	}
 
 	private Message getMessage(MessageWidget widget) {
-		logger.info("getMessage method");
+		logger.debug("getMessage method");
 		return new Message(widget.getSender().trim(), widget.getTopic().trim(), widget.getDate().trim());
 	}
 

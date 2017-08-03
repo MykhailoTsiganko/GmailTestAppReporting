@@ -17,12 +17,12 @@ public class EditMenu {
     private List<Button> deleteButtons;
 
     public EditMenu() {
-	logger.info("TopEditMenu constructor");
+	logger.debug("TopEditMenu constructor");
 	PageFactory.initElements(new ElementDecorator(DriverManager.getInstance()), this);
     }
 
     public void clickDelete() {
-	logger.info("delete menthod");
+	logger.debug("delete menthod");
 	for (Button deleteButton : deleteButtons) {
 	    if (deleteButton.isDisplayed()) {
 		deleteButton.click();

@@ -24,23 +24,23 @@ public class NavigationMenu {
 	private Button importantItem;
 
 	public NavigationMenu() {
-		logger.info("NavigationMenu constructor");
+		logger.debug("NavigationMenu constructor");
 		PageFactory.initElements(new ElementDecorator(DriverManager.getInstance()), this);
 	}
 
 	public void clikOnImportant() {
-		logger.info("clikOnImportant method");
+		logger.debug("clikOnImportant method");
 		importantItem.click();
 		waitUtilBoxLoaded();
 	}
 
 	public void clikOnMore() {
-		logger.info("clikOnMore method");
+		logger.debug("clikOnMore method");
 		moreItem.click();
 	}
 
 	private void waitUtilBoxLoaded() {
-		logger.info("waitUntilBoxLoaded method");
+		logger.debug("waitUntilBoxLoaded method");
 		try {
 			new WebDriverWait(DriverManager.getInstance(), 3)
 					.until(ExpectedConditions.presenceOfElementLocated(By.xpath(".//div[@class='vY']")));

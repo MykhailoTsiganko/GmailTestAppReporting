@@ -38,42 +38,42 @@ public class MessageWidget {
 	private Label date;
 
 	public MessageWidget(WebElement elem) {
-		logger.info("MessageWidget constructor");
+		logger.debug("MessageWidget constructor");
 		PageFactory.initElements(new ElementDecorator(elem), this);
 		this.currentContext = elem;
 	}
 
 	public boolean isNotImportant() {
-		logger.info("isNotImportant method");
+		logger.debug("isNotImportant method");
 		return importanceMarker.getAttribute("class").equals(NOT_IMPORTANT_MESSAGE_CLASS);
 	}
 
 	public void clickOnImportantMarker() {
-		logger.info("clickOnImportantMarker method");
+		logger.debug("clickOnImportantMarker method");
 		new Actions(DriverManager.getInstance()).click(importanceMarker).build().perform();
 		new WebDriverWait(DriverManager.getInstance(), 10).until(
 				ExpectedConditions.presenceOfNestedElementLocatedBy(currentContext, By.xpath(IMPORTANT_MESSAGE_ELEM)));
 	}
 
 	public void clickOnMarker() {
-		logger.info("clickOnMarker method");
+		logger.debug("clickOnMarker method");
 		JavascriptExecutor js = (JavascriptExecutor) DriverManager.getInstance();
 		js.executeScript("arguments[0].click();", checkBox);
 	}
 
 	public String getDate() {
-		logger.info("getDate method");
+		logger.debug("getDate method");
 
 		return date.getAttribute("aria-label");
 	}
 
 	public String getSender() {
-		logger.info("getSender method");
+		logger.debug("getSender method");
 		return sender.getContex();
 	}
 
 	public String getTopic() {
-		logger.info("getTopic method");
+		logger.debug("getTopic method");
 		return topic.getContex();
 	}
 
