@@ -1,6 +1,7 @@
 package com.epam.lab.gmail;
 
 import static org.testng.Assert.assertFalse;
+
 import static org.testng.Assert.assertNotNull;
 
 import java.util.List;
@@ -8,17 +9,19 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.epam.lab.gmail.bisnes_objects.GmailBO;
 import com.epam.lab.gmail.bisnes_objects.LoginBO;
 import com.epam.lab.gmail.drivers.DriverManager;
+import com.epam.lab.gmail.listeners.LoggerListener;
 import com.epam.lab.gmail.models.Message;
 import com.epam.lab.gmail.models.User;
 import com.epam.lab.gmail.prop.DriverPropertisLoader;
-import com.epam.lab.gmail.prop.UserManager;
 import com.epam.lab.gmail.providers.CustomDataProvider;
 
+@Listeners(LoggerListener.class)
 public class GmailTest {
 	public static final String PROPERTIES_FILE_URL = "resources/driver_config.properties";
 	
