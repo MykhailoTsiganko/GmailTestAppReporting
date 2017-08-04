@@ -11,6 +11,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import org.uncommons.reportng.HTMLReporter;
 
 import com.epam.lab.gmail.bisnes_objects.GmailBO;
 import com.epam.lab.gmail.bisnes_objects.LoginBO;
@@ -21,7 +22,7 @@ import com.epam.lab.gmail.providers.CustomDataProvider;
 import com.epam.lab.gmail.utils.DriverManager;
 import com.epam.lab.gmail.utils.DriverPropertisLoader;
 
-@Listeners(LoggerListener.class)
+@Listeners({LoggerListener.class,HTMLReporter.class})
 public class GmailTest {
 	public static final String PROPERTIES_FILE_URL = "resources/driver_config.properties";
 	
@@ -44,7 +45,7 @@ public class GmailTest {
 
 		GmailBO gmailBo = new GmailBO();
 
-		List<Message> markedMessagesList = gmailBo.markMessagesAsImportant(3);
+		List<Message> markedMessagesList = gmailBo.markMessagesAsImportant(1);
 		
 		logger.info("Marked Messages" + markedMessagesList.toString());
 

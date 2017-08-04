@@ -10,18 +10,19 @@ public class LoggerListener implements ITestListener{
 
 	@Override
 	public void onTestStart(ITestResult result) {
-		logger.info(result.getTestClass());
+		logger.info(String.format("Method[%-30s], Starts in : %d", result.getMethod().getMethodName()));
+
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		logger.info(result.getTestClass().toString().toUpperCase() + "SECCES");
+		logger.info(result.getTestClass().toString().toUpperCase());
 		
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		logger.warn(result.getTestClass().toString().toUpperCase() + "FAILURE");
+		logger.warn(result.getName().toString().toUpperCase() + "FAILURE");
 		logger.warn(result.getThrowable());
 		
 	}

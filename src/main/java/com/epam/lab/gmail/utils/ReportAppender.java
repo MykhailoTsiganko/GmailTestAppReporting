@@ -24,16 +24,9 @@ public class ReportAppender extends AppenderSkeleton {
 				}
 			}
 		}
-		String result = buff.toString();
-		if (event.getLevel().equals(Level.WARN) || event.getLevel().equals(Level.FATAL)
-				|| event.getLevel().equals(Level.ERROR)) {
-			result = "<span style='color:red'>" + result + "</span>";
-		} else if(event.getLevel().equals(Level.DEBUG) || event.getLevel().equals(Level.INFO)
-				|| event.getLevel().equals(Level.TRACE)) {
-			result = "<span style='color:green'>" + result + "</span>";
-		}		
+			
 	
-		return "<br>" + result ;
+		return buff.toString();
 	}
 
 	@Override
