@@ -13,7 +13,7 @@ public class GmailBO {
 	private GmailMainPage mainPage;
 
 	public GmailBO() {
-		mainPage = new GmailMainPage();
+		mainPage = new GmailMainPage();	
 	}
 
 	public List<Message> getMessageModels() {
