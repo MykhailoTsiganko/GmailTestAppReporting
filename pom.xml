@@ -58,9 +58,7 @@
 			<classifier>no_aop</classifier>
 			<scope>test</scope>
 		</dependency>
-
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
