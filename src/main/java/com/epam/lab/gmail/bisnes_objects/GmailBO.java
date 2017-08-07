@@ -4,14 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-
-import com.epam.lab.gmail.GmailTest;
 import com.epam.lab.gmail.models.Message;
 import com.epam.lab.gmail.pages.GmailMainPage;
 import com.epam.lab.gmail.pages.MessageWidget;
 
 public class GmailBO {
-	public static Logger logger = Logger.getLogger(GmailTest.class);
+	public static Logger logger = Logger.getLogger(GmailBO.class);
 	private GmailMainPage mainPage;
 
 	public GmailBO() {
