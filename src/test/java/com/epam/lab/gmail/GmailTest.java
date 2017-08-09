@@ -22,10 +22,9 @@ import com.epam.lab.gmail.providers.CustomDataProvider;
 import com.epam.lab.gmail.utils.DriverManager;
 import com.epam.lab.gmail.utils.DriverPropertisLoader;
 
-@Listeners({LoggerListener.class,HTMLReporter.class})
+@Listeners({ LoggerListener.class, HTMLReporter.class })
 public class GmailTest {
 	public static final String PROPERTIES_FILE_URL = "resources/driver_config.properties";
-	
 
 	public static Logger logger = Logger.getLogger(GmailTest.class);
 
@@ -40,13 +39,13 @@ public class GmailTest {
 		logger.info(user.toString());
 
 		LoginBO loginBO = new LoginBO();
-		
+
 		loginBO.loginAs(user);
 
 		GmailBO gmailBo = new GmailBO();
 
 		List<Message> markedMessagesList = gmailBo.markMessagesAsImportant(1);
-		
+
 		logger.info("Marked Messages" + markedMessagesList.toString());
 
 		assertNotNull(markedMessagesList);
@@ -56,6 +55,10 @@ public class GmailTest {
 		gmailBo.deleteMessages(markedMessagesList);
 
 		assertFalse(gmailBo.arePresent(markedMessagesList));
+
+		gmailBo.undoOperation();
+
+		gmailBo.markMessagesAsNotImportant(markedMessagesList);
 	}
 
 	@AfterMethod

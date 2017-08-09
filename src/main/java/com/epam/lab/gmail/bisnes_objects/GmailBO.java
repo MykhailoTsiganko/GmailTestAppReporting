@@ -1,19 +1,21 @@
-		package com.epam.lab.gmail.bisnes_objects;
+package com.epam.lab.gmail.bisnes_objects;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
+
 import com.epam.lab.gmail.models.Message;
 import com.epam.lab.gmail.pages.GmailMainPage;
 import com.epam.lab.gmail.pages.MessageWidget;
+import com.epam.lab.gmail.pages.enums.Box;
 
 public class GmailBO {
 	public static Logger logger = Logger.getLogger(GmailBO.class);
 	private GmailMainPage mainPage;
 
 	public GmailBO() {
-		mainPage = new GmailMainPage();	
+		mainPage = new GmailMainPage();
 	}
 
 	public List<Message> getMessageModels() {
@@ -41,12 +43,49 @@ public class GmailBO {
 		}
 		return markedMessagesList;
 	}
+	
+	public void markMessagesAsNotImportant(List<Message> messageList) {
+		logger.debug("markMessagesAsNotImportant method");
+		int markedMessagesNumber = 0;
+		for (MessageWidget messageWidget : mainPage.getMessagesWidgets()) {
+			System.out.println(messageList.contains((getMessage(messageWidget))));
+			if (messageList.contains((getMessage(messageWidget)))) {
+				messageWidget.clickOnImportantMarker();;
+				markedMessagesNumber++;
+			}
+			if (markedMessagesNumber >= messageList.size()) {
+				break;
+			}
+		}
+	}
+
+	public void markMessages(int number) {
+		logger.debug("markMessages metod");
+
+		List<MessageWidget> messageWidgets = mainPage.getMessagesWidgets();
+		for (int i = 0; i < number && i < messageWidgets.size(); i++) {
+			logger.info("inside cycle".toUpperCase());
+			messageWidgets.get(i).clickOnMarker();
+		}
+	}
 
 	public void openImportantMesssagesList() {
 		logger.debug("openImportantMesssagesList metod");
-		mainPage.navigationMenu().clikOnMore();
 		mainPage.navigationMenu().clikOnImportant();
 	}
+
+	public void openBinMesssagesList() {
+		logger.debug("openBinMesssagesList metod");
+		mainPage.navigationMenu().clickOnBin();
+		mainPage = new GmailMainPage();
+
+	}
+
+	public void moveToBox(Box box) {
+		mainPage.topEditMenu().clickMoveTo(box);
+	}
+
+
 
 	public void deleteMessages(List<Message> listToDelete) {
 		logger.debug("deleteMessages method");
@@ -74,6 +113,11 @@ public class GmailBO {
 			}
 		}
 		return isPresent;
+	}
+	
+	public void undoOperation() {
+		mainPage.clickUndo();
+		mainPage = new GmailMainPage();
 	}
 
 	private Message getMessage(MessageWidget widget) {

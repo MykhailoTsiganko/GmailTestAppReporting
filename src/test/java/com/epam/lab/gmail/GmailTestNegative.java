@@ -45,15 +45,22 @@ public class GmailTestNegative {
 
 		GmailBO gmailBo = new GmailBO();
 
-		List<Message> markedMessagesList = gmailBo.markMessagesAsImportant(1);
+		List<Message> markedMessagesList = gmailBo.markMessagesAsImportant(2);
 		
 		logger.info("Marked Messages" + markedMessagesList.toString());
-		
+
 		assertNotNull(markedMessagesList);
+
+		gmailBo.openImportantMesssagesList();
 
 		gmailBo.deleteMessages(markedMessagesList);
 
 		assertTrue(gmailBo.arePresent(markedMessagesList));
+		
+		gmailBo.undoOperation();
+		
+		gmailBo.markMessagesAsNotImportant(markedMessagesList);
+
 	}
 
 	@AfterMethod

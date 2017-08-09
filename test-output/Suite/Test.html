@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/5/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Aug 05 16:24:55 EEST 2017</td>
+<td>Started on:</td><td>Wed Aug 09 17:49:27 EEST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>80 seconds (80156 ms)</td>
+<tr><td>Total time:</td><td>79 seconds (79726 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,35 +76,35 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.epam.lab.gmail.GmailTestNegative.markAndDelete()'><b>markAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTestNegative<br>Parameters: User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]<br/>
-<a href="#Output-1950849174" onClick='toggleBox("Output-1950849174", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1842976948" onClick='toggleBox("Output-1842976948", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1950849174" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1950849174">
-2017-08-05 16:25:34 INFO  GmailTestNegative:40 - User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]
+<a href="#Output-1842976948" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1842976948">
+2017-08-09 17:50:09 INFO  LoggerListener:13 - Test : markAndDelete , Method : GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@2b2948e2], Started
 <br/>
-2017-08-05 16:26:06 INFO  GmailTestNegative:50 - Marked Messages[Message [sender=????? ???????, topic=I am tired to write this, date=26 ????? 2017 ?. ? 01:09]]
+2017-08-09 17:50:09 INFO  GmailTestNegative:40 - User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]
 <br/>
-2017-08-05 16:26:08 WARN  LoggerListener:25 - MARKANDDELETEFAILURE
+2017-08-09 17:50:33 INFO  GmailTestNegative:50 - Marked Messages[Message [sender=????? ???????, topic=Dich, date=26 ????? 2017 ?. ? 01:12], Message [sender=????? ???????, topic=Zapovit, date=26 ????? 2017 ?. ? 01:11]]
 <br/>
-2017-08-05 16:26:08 WARN  LoggerListener:26 - java.lang.AssertionError: expected [true] but found [false]
+2017-08-09 17:50:37 WARN  LoggerListener:25 - Test : markAndDelete , Method : GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@2b2948e2] failed in
 <br/>
 </div>
 </td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:56)
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:58)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1950849174", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1950849174'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1842976948", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1842976948'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
 	at org.testng.Assert.assertTrue(Assert.java:51)
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:56)
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -121,39 +121,39 @@ function toggleAllBoxes() {
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>33</td>
+<td>27</td>
 <td>com.epam.lab.gmail.GmailTestNegative@2b2948e2</td></tr>
 <tr>
 <td title='com.epam.lab.gmail.GmailTestNegative.markAndDelete()'><b>markAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTestNegative<br>Parameters: User [login=novacug.cucumber@gmail.com, password=GigurdaZargeng38]<br/>
-<a href="#Output-975888983" onClick='toggleBox("Output-975888983", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1126190887" onClick='toggleBox("Output-1126190887", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-975888983" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-975888983">
-2017-08-05 16:25:34 INFO  GmailTestNegative:40 - User [login=novacug.cucumber@gmail.com, password=GigurdaZargeng38]
+<a href="#Output-1126190887" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1126190887">
+2017-08-09 17:50:09 INFO  LoggerListener:13 - Test : markAndDelete , Method : GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@2b2948e2], Started
 <br/>
-2017-08-05 16:26:08 INFO  GmailTestNegative:50 - Marked Messages[]
+2017-08-09 17:50:09 INFO  GmailTestNegative:40 - User [login=novacug.cucumber@gmail.com, password=GigurdaZargeng38]
 <br/>
-2017-08-05 16:26:08 WARN  LoggerListener:25 - MARKANDDELETEFAILURE
+2017-08-09 17:50:35 INFO  GmailTestNegative:50 - Marked Messages[Message [sender=????? ???????, topic=Global Warming, date=26 ????? 2017 ?. ? 01:10], Message [sender=????? ???????, topic=I am tired to write this, date=26 ????? 2017 ?. ? 01:09]]
 <br/>
-2017-08-05 16:26:08 WARN  LoggerListener:26 - java.lang.AssertionError: expected [true] but found [false]
+2017-08-09 17:50:38 WARN  LoggerListener:25 - Test : markAndDelete , Method : GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@2b2948e2] failed in
 <br/>
 </div>
 </td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:56)
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:58)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace975888983", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace975888983'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1126190887", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1126190887'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
 	at org.testng.Assert.assertTrue(Assert.java:51)
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:56)
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -170,39 +170,88 @@ function toggleAllBoxes() {
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>33</td>
+<td>28</td>
 <td>com.epam.lab.gmail.GmailTestNegative@2b2948e2</td></tr>
 <tr>
 <td title='com.epam.lab.gmail.GmailTestNegative.markAndDelete()'><b>markAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTestNegative<br>Parameters: User [login=taras.tsyhanko.tk.2014@lpnu.ua, password=05.10.1996]<br/>
-<a href="#Output-1474623202" onClick='toggleBox("Output-1474623202", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1218876218" onClick='toggleBox("Output-1218876218", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1474623202" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1474623202">
-2017-08-05 16:25:34 INFO  GmailTestNegative:40 - User [login=taras.tsyhanko.tk.2014@lpnu.ua, password=05.10.1996]
+<a href="#Output-1218876218" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1218876218">
+2017-08-09 17:50:09 INFO  LoggerListener:13 - Test : markAndDelete , Method : GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@2b2948e2], Started
 <br/>
-2017-08-05 16:26:07 INFO  GmailTestNegative:50 - Marked Messages[Message [sender=?, topic=I am tired to write this, date=26 ????? 2017 ?. ? 01:09]]
+2017-08-09 17:50:09 INFO  GmailTestNegative:40 - User [login=taras.tsyhanko.tk.2014@lpnu.ua, password=05.10.1996]
 <br/>
-2017-08-05 16:26:10 WARN  LoggerListener:25 - MARKANDDELETEFAILURE
+2017-08-09 17:50:37 INFO  GmailTestNegative:50 - Marked Messages[Message [sender=?, topic=Zapovit, date=26 ????? 2017 ?. ? 01:11], Message [sender=?, topic=Global Warming, date=26 ????? 2017 ?. ? 01:10]]
 <br/>
-2017-08-05 16:26:10 WARN  LoggerListener:26 - java.lang.AssertionError: expected [true] but found [false]
+2017-08-09 17:50:42 WARN  LoggerListener:25 - Test : markAndDelete , Method : GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@2b2948e2] failed in
 <br/>
 </div>
 </td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:56)
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:58)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1474623202", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1474623202'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1218876218", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1218876218'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
 	at org.testng.Assert.assertTrue(Assert.java:51)
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:56)
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>32</td>
+<td>com.epam.lab.gmail.GmailTestNegative@2b2948e2</td></tr>
+<tr>
+<td title='com.epam.lab.gmail.GmailTestNegative.markAndDelete()'><b>markAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTestNegative<br>Parameters: User [login=Micle.AutomationBudda2017@gmail.com, password=TheSkyIsShiningBricly1]<br/>
+<a href="#Output-1935164295" onClick='toggleBox("Output-1935164295", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1935164295" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1935164295">
+2017-08-09 17:50:09 INFO  LoggerListener:13 - Test : markAndDelete , Method : GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@2b2948e2], Started
+<br/>
+2017-08-09 17:50:09 INFO  GmailTestNegative:40 - User [login=Micle.AutomationBudda2017@gmail.com, password=TheSkyIsShiningBricly1]
+<br/>
+2017-08-09 17:50:40 INFO  GmailTestNegative:50 - Marked Messages[Message [sender=Test Test, topic=1501024905290This is, date=26 ????? 2017 ?. ? 02:21], Message [sender=Test Test, topic=1501024884240This is, date=26 ????? 2017 ?. ? 02:21]]
+<br/>
+2017-08-09 17:50:46 WARN  LoggerListener:25 - Test : markAndDelete , Method : GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@2b2948e2] failed in
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:58)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1935164295", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1935164295'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -222,36 +271,36 @@ function toggleAllBoxes() {
 <td>36</td>
 <td>com.epam.lab.gmail.GmailTestNegative@2b2948e2</td></tr>
 <tr>
-<td title='com.epam.lab.gmail.GmailTestNegative.markAndDelete()'><b>markAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTestNegative<br>Parameters: User [login=Micle.AutomationBudda2017@gmail.com, password=TheSkyIsShiningBricly1]<br/>
-<a href="#Output-1506548639" onClick='toggleBox("Output-1506548639", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.epam.lab.gmail.GmailTestNegative.markAndDelete()'><b>markAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTestNegative<br>Parameters: User [login=SelTestTsyganko@gmail.com, password=Selenium1]<br/>
+<a href="#Output-24208910" onClick='toggleBox("Output-24208910", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1506548639" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1506548639">
-2017-08-05 16:25:34 INFO  GmailTestNegative:40 - User [login=Micle.AutomationBudda2017@gmail.com, password=TheSkyIsShiningBricly1]
+<a href="#Output-24208910" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24208910">
+2017-08-09 17:50:09 INFO  LoggerListener:13 - Test : markAndDelete , Method : GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@2b2948e2], Started
 <br/>
-2017-08-05 16:26:09 INFO  GmailTestNegative:50 - Marked Messages[Message [sender=Test Test, topic=1501024839855This is, date=26 ????? 2017 ?. ? 02:20]]
+2017-08-09 17:50:09 INFO  GmailTestNegative:40 - User [login=SelTestTsyganko@gmail.com, password=Selenium1]
 <br/>
-2017-08-05 16:26:13 WARN  LoggerListener:25 - MARKANDDELETEFAILURE
+2017-08-09 17:50:38 INFO  GmailTestNegative:50 - Marked Messages[Message [sender=Test Test, topic=Hey, whats up?97623234395976, date=13 July 2017 at 16:22], Message [sender=Test Test, topic=Hey, whats up?97618227486494, date=13 July 2017 at 16:21]]
 <br/>
-2017-08-05 16:26:13 WARN  LoggerListener:26 - java.lang.AssertionError: expected [true] but found [false]
+2017-08-09 17:50:46 WARN  LoggerListener:25 - Test : markAndDelete , Method : GmailTestNegative.markAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTestNegative@2b2948e2] failed in
 <br/>
 </div>
 </td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:56)
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:58)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1506548639", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1506548639'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace24208910", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace24208910'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
 	at org.testng.Assert.assertTrue(Assert.java:51)
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:56)
+	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -268,39 +317,39 @@ function toggleAllBoxes() {
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>38</td>
+<td>36</td>
 <td>com.epam.lab.gmail.GmailTestNegative@2b2948e2</td></tr>
 <tr>
-<td title='com.epam.lab.gmail.GmailTestNegative.markAndDelete()'><b>markAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTestNegative<br>Parameters: User [login=SelTestTsyganko@gmail.com, password=Selenium1]<br/>
-<a href="#Output-118087620" onClick='toggleBox("Output-118087620", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.epam.lab.gmail.GmailTest.markMessagesToImportantAndDelete()'><b>markMessagesToImportantAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTest<br>Parameters: User [login=novacug.cucumber@gmail.com, password=GigurdaZargeng38]<br/>
+<a href="#Output-1849666763" onClick='toggleBox("Output-1849666763", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-118087620" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-118087620">
-2017-08-05 16:25:34 INFO  GmailTestNegative:40 - User [login=SelTestTsyganko@gmail.com, password=Selenium1]
+<a href="#Output-1849666763" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1849666763">
+2017-08-09 17:49:28 INFO  LoggerListener:13 - Test : markMessagesToImportantAndDelete , Method : GmailTest.markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@eec5a4a], Started
 <br/>
-2017-08-05 16:26:09 INFO  GmailTestNegative:50 - Marked Messages[Message [sender=Test Test, topic=1501023389753This is, date=26 July 2017 at 01:56]]
+2017-08-09 17:49:28 INFO  GmailTest:39 - User [login=novacug.cucumber@gmail.com, password=GigurdaZargeng38]
 <br/>
-2017-08-05 16:26:15 WARN  LoggerListener:25 - MARKANDDELETEFAILURE
+2017-08-09 17:49:53 INFO  GmailTest:49 - Marked Messages[Message [sender=????? ???????, topic=Zapovit, date=26 ????? 2017 ?. ? 01:11]]
 <br/>
-2017-08-05 16:26:15 WARN  LoggerListener:26 - java.lang.AssertionError: expected [true] but found [false]
+2017-08-09 17:49:57 WARN  LoggerListener:25 - Test : markMessagesToImportantAndDelete , Method : GmailTest.markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@eec5a4a] failed in
 <br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:56)
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at com.epam.lab.gmail.GmailTest.markMessagesToImportantAndDelete(GmailTest.java:57)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace118087620", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace118087620'><pre>java.lang.AssertionError: expected [true] but found [false]
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1849666763", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1849666763'><pre>java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertTrue(Assert.java:41)
-	at org.testng.Assert.assertTrue(Assert.java:51)
-	at com.epam.lab.gmail.GmailTestNegative.markAndDelete(GmailTestNegative.java:56)
+	at org.testng.Assert.assertFalse(Assert.java:62)
+	at org.testng.Assert.assertFalse(Assert.java:72)
+	at com.epam.lab.gmail.GmailTest.markMessagesToImportantAndDelete(GmailTest.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -317,8 +366,8 @@ function toggleAllBoxes() {
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>40</td>
-<td>com.epam.lab.gmail.GmailTestNegative@2b2948e2</td></tr>
+<td>29</td>
+<td>com.epam.lab.gmail.GmailTest@eec5a4a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -328,33 +377,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.epam.lab.gmail.GmailTest.markMessagesToImportantAndDelete()'><b>markMessagesToImportantAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTest<br>Parameters: User [login=taras.tsyhanko.tk.2014@lpnu.ua, password=05.10.1996]<br/>
-<a href="#Output-687917452" onClick='toggleBox("Output-687917452", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.epam.lab.gmail.GmailTest.markMessagesToImportantAndDelete()'><b>markMessagesToImportantAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTest<br>Parameters: User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]<br/>
+<a href="#Output-1763528460" onClick='toggleBox("Output-1763528460", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-687917452" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-687917452">
-2017-08-05 16:24:56 INFO  GmailTest:40 - User [login=taras.tsyhanko.tk.2014@lpnu.ua, password=05.10.1996]
+<a href="#Output-1763528460" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1763528460">
+2017-08-09 17:49:28 INFO  LoggerListener:13 - Test : markMessagesToImportantAndDelete , Method : GmailTest.markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@eec5a4a], Started
 <br/>
-2017-08-05 16:25:11 INFO  GmailTest:50 - Marked Messages[Message [sender=?, topic=Global Warming, date=26 ????? 2017 ?. ? 01:10]]
+2017-08-09 17:49:28 INFO  GmailTest:39 - User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]
 <br/>
-2017-08-05 16:25:21 INFO  LoggerListener:19 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]
+2017-08-09 17:49:50 INFO  GmailTest:49 - Marked Messages[Message [sender=????? ???????, topic=Dich, date=26 ????? 2017 ?. ? 01:12]]
 <br/>
-</div>
-</td>
-<td></td>
-<td>25</td>
-<td>com.epam.lab.gmail.GmailTest@eec5a4a</td></tr>
-<tr>
-<td title='com.epam.lab.gmail.GmailTest.markMessagesToImportantAndDelete()'><b>markMessagesToImportantAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTest<br>Parameters: User [login=Micle.AutomationBudda2017@gmail.com, password=TheSkyIsShiningBricly1]<br/>
-<a href="#Output-989264307" onClick='toggleBox("Output-989264307", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-989264307" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-989264307">
-2017-08-05 16:24:56 INFO  GmailTest:40 - User [login=Micle.AutomationBudda2017@gmail.com, password=TheSkyIsShiningBricly1]
+2017-08-09 17:49:58 INFO  NavigationMenu:58 - handle
 <br/>
-2017-08-05 16:25:22 INFO  GmailTest:50 - Marked Messages[Message [sender=Test Test, topic=1501024862376This is, date=26 ????? 2017 ?. ? 02:21]]
-<br/>
-2017-08-05 16:25:26 INFO  LoggerListener:19 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]
+2017-08-09 17:49:58 INFO  LoggerListener:19 - Test : markMessagesToImportantAndDelete , Method : GmailTest.markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@eec5a4a] passed successful
 <br/>
 </div>
 </td>
@@ -362,55 +398,67 @@ function toggleAllBoxes() {
 <td>30</td>
 <td>com.epam.lab.gmail.GmailTest@eec5a4a</td></tr>
 <tr>
+<td title='com.epam.lab.gmail.GmailTest.markMessagesToImportantAndDelete()'><b>markMessagesToImportantAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTest<br>Parameters: User [login=taras.tsyhanko.tk.2014@lpnu.ua, password=05.10.1996]<br/>
+<a href="#Output-1493820581" onClick='toggleBox("Output-1493820581", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1493820581" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1493820581">
+2017-08-09 17:49:28 INFO  LoggerListener:13 - Test : markMessagesToImportantAndDelete , Method : GmailTest.markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@eec5a4a], Started
+<br/>
+2017-08-09 17:49:28 INFO  GmailTest:39 - User [login=taras.tsyhanko.tk.2014@lpnu.ua, password=05.10.1996]
+<br/>
+2017-08-09 17:49:45 INFO  GmailTest:49 - Marked Messages[Message [sender=?, topic=Dich, date=26 ????? 2017 ?. ? 01:12]]
+<br/>
+2017-08-09 17:50:01 INFO  NavigationMenu:58 - handle
+<br/>
+2017-08-09 17:50:01 INFO  LoggerListener:19 - Test : markMessagesToImportantAndDelete , Method : GmailTest.markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@eec5a4a] passed successful
+<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>com.epam.lab.gmail.GmailTest@eec5a4a</td></tr>
+<tr>
+<td title='com.epam.lab.gmail.GmailTest.markMessagesToImportantAndDelete()'><b>markMessagesToImportantAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTest<br>Parameters: User [login=Micle.AutomationBudda2017@gmail.com, password=TheSkyIsShiningBricly1]<br/>
+<a href="#Output-466124835" onClick='toggleBox("Output-466124835", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-466124835" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-466124835">
+2017-08-09 17:49:28 INFO  LoggerListener:13 - Test : markMessagesToImportantAndDelete , Method : GmailTest.markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@eec5a4a], Started
+<br/>
+2017-08-09 17:49:28 INFO  GmailTest:39 - User [login=Micle.AutomationBudda2017@gmail.com, password=TheSkyIsShiningBricly1]
+<br/>
+2017-08-09 17:49:53 INFO  GmailTest:49 - Marked Messages[Message [sender=Google, topic=??????????? ???? ??? ??????????? ?????? ????? ? ????????? ?????, date=7 ?????? 2017 ?. ? 17:40]]
+<br/>
+2017-08-09 17:50:07 INFO  NavigationMenu:58 - handle
+<br/>
+2017-08-09 17:50:07 INFO  LoggerListener:19 - Test : markMessagesToImportantAndDelete , Method : GmailTest.markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@eec5a4a] passed successful
+<br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
+<td>com.epam.lab.gmail.GmailTest@eec5a4a</td></tr>
+<tr>
 <td title='com.epam.lab.gmail.GmailTest.markMessagesToImportantAndDelete()'><b>markMessagesToImportantAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTest<br>Parameters: User [login=SelTestTsyganko@gmail.com, password=Selenium1]<br/>
-<a href="#Output-1387790817" onClick='toggleBox("Output-1387790817", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1630403554" onClick='toggleBox("Output-1630403554", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1387790817" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1387790817">
-2017-08-05 16:24:56 INFO  GmailTest:40 - User [login=SelTestTsyganko@gmail.com, password=Selenium1]
+<a href="#Output-1630403554" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1630403554">
+2017-08-09 17:49:28 INFO  LoggerListener:13 - Test : markMessagesToImportantAndDelete , Method : GmailTest.markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@eec5a4a], Started
 <br/>
-2017-08-05 16:25:21 INFO  GmailTest:50 - Marked Messages[Message [sender=Test Test, topic=1501023437993This is, date=26 July 2017 at 01:57]]
+2017-08-09 17:49:28 INFO  GmailTest:39 - User [login=SelTestTsyganko@gmail.com, password=Selenium1]
 <br/>
-2017-08-05 16:25:30 INFO  LoggerListener:19 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]
+2017-08-09 17:49:52 INFO  GmailTest:49 - Marked Messages[Message [sender=Test Test, topic=Hey, whats up?97628165596806, date=13 July 2017 at 16:22]]
+<br/>
+2017-08-09 17:50:08 INFO  NavigationMenu:58 - handle
+<br/>
+2017-08-09 17:50:08 INFO  LoggerListener:19 - Test : markMessagesToImportantAndDelete , Method : GmailTest.markMessagesToImportantAndDelete(com.epam.lab.gmail.models.User)[pri:0, instance:com.epam.lab.gmail.GmailTest@eec5a4a] passed successful
 <br/>
 </div>
 </td>
 <td></td>
-<td>34</td>
-<td>com.epam.lab.gmail.GmailTest@eec5a4a</td></tr>
-<tr>
-<td title='com.epam.lab.gmail.GmailTest.markMessagesToImportantAndDelete()'><b>markMessagesToImportantAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTest<br>Parameters: User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]<br/>
-<a href="#Output-376321736" onClick='toggleBox("Output-376321736", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-376321736" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-376321736">
-2017-08-05 16:24:56 INFO  GmailTest:40 - User [login=mykhailo.tsyhanko@gmail.com, password=ReGmiha231]
-<br/>
-2017-08-05 16:25:30 INFO  GmailTest:50 - Marked Messages[Message [sender=????? ???????, topic=Global Warming, date=26 ????? 2017 ?. ? 01:10]]
-<br/>
-2017-08-05 16:25:33 INFO  LoggerListener:19 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]
-<br/>
-</div>
-</td>
-<td></td>
-<td>37</td>
-<td>com.epam.lab.gmail.GmailTest@eec5a4a</td></tr>
-<tr>
-<td title='com.epam.lab.gmail.GmailTest.markMessagesToImportantAndDelete()'><b>markMessagesToImportantAndDelete</b><br>Test class: com.epam.lab.gmail.GmailTest<br>Parameters: User [login=novacug.cucumber@gmail.com, password=GigurdaZargeng38]<br/>
-<a href="#Output-1773172311" onClick='toggleBox("Output-1773172311", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1773172311" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1773172311">
-2017-08-05 16:24:56 INFO  GmailTest:40 - User [login=novacug.cucumber@gmail.com, password=GigurdaZargeng38]
-<br/>
-2017-08-05 16:25:32 INFO  GmailTest:50 - Marked Messages[Message [sender=Micle Tsyganko, topic=Will the banana save the world, date=26 ????? 2017 ?. ? 00:38]]
-<br/>
-2017-08-05 16:25:33 INFO  LoggerListener:19 - [TESTCLASS NAME=CLASS COM.EPAM.LAB.GMAIL.GMAILTEST]
-<br/>
-</div>
-</td>
-<td></td>
-<td>37</td>
+<td>40</td>
 <td>com.epam.lab.gmail.GmailTest@eec5a4a</td></tr>
 </table><p>
 </body>

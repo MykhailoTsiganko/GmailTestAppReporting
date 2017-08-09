@@ -4,10 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.epam.lab.gmail.elements.Button;
 import com.epam.lab.gmail.utils.DriverManager;
 
 public class GmailMainPage {
@@ -17,6 +21,8 @@ public class GmailMainPage {
 
 	@FindBy(css = "tr.zA")
 	private List<WebElement> messagesBox;
+	
+	
 
 	public GmailMainPage() {
 		logger.debug("GmailMainPage");
@@ -36,11 +42,30 @@ public class GmailMainPage {
 
 	public List<MessageWidget> getMessagesWidgets() {
 		logger.debug("getMessagesModels");
-		List<MessageWidget> messageModelList = new ArrayList<>(messagesBox.size());
+		List<MessageWidget> messageWidgets = new ArrayList<>(messagesBox.size());
 		for (WebElement element : messagesBox) {
-			messageModelList.add(new MessageWidget(element));
+			messageWidgets.add(new MessageWidget(element));
 		}
-		return messageModelList;
+		return messageWidgets;
+	}
+	
+	public void clickUndo() {
+		Button undoButton = new Button(DriverManager.getInstance().findElement(By.xpath("//*[@id='link_undo']")));
+		undoButton.click();
+		waitUtilBoxLoaded();
+	}
+	
+	private void waitUtilBoxLoaded() {
+		logger.debug("waitUntilBoxLoaded method");
+		try {
+			new WebDriverWait(DriverManager.getInstance(), 3)
+					.until(ExpectedConditions.presenceOfElementLocated(By.xpath(".//div[@class='vY']")));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		new WebDriverWait(DriverManager.getInstance(), 10)
+				.until(ExpectedConditions.presenceOfElementLocated(By.xpath(".//div[@class='vY nq']")));
+
 	}
 
 }

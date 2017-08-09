@@ -22,6 +22,9 @@ public class NavigationMenu {
 
 	@FindBy(css = "div.TN.GLujEb.aHS-bns")
 	private Button importantItem;
+	
+	@FindBy(css = "div.TN.GLujEb.aHS-bnx")
+	private Button binItem;
 
 	public NavigationMenu() {
 		logger.debug("NavigationMenu constructor");
@@ -30,6 +33,9 @@ public class NavigationMenu {
 
 	public void clikOnImportant() {
 		logger.debug("clikOnImportant method");
+		if(!importantItem.isDisplayed()) {
+			moreItem.click();
+		}
 		importantItem.click();
 		waitUtilBoxLoaded();
 	}
@@ -37,6 +43,15 @@ public class NavigationMenu {
 	public void clikOnMore() {
 		logger.debug("clikOnMore method");
 		moreItem.click();
+	}
+	
+	public void clickOnBin() {
+		logger.debug("clickOnBin method");
+		if(!binItem.isDisplayed()) {
+			moreItem.click();
+		}
+		binItem.actionClick();
+		waitUtilBoxLoaded();
 	}
 
 	private void waitUtilBoxLoaded() {

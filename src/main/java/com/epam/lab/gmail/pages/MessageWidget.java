@@ -2,15 +2,15 @@ package com.epam.lab.gmail.pages;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.epam.lab.gmail.decorator.ElementDecorator;
+import com.epam.lab.gmail.elements.Button;
 import com.epam.lab.gmail.elements.Label;
 import com.epam.lab.gmail.utils.DriverManager;
 
@@ -23,10 +23,10 @@ public class MessageWidget {
 	private WebElement currentContext;
 
 	@FindBy(xpath = ".//*[@class='pG']/div[2]")
-	private WebElement importanceMarker;
+	private Button importanceMarker;
 
 	@FindBy(xpath = ".//td[@class='oZ-x3 xY']")
-	private WebElement checkBox;
+	private Button checkBox;
 
 	@FindBy(xpath = ".//div[@class='yW']/span")
 	private Label sender;
@@ -50,15 +50,19 @@ public class MessageWidget {
 
 	public void clickOnImportantMarker() {
 		logger.debug("clickOnImportantMarker method");
-		new Actions(DriverManager.getInstance()).click(importanceMarker).build().perform();
-		new WebDriverWait(DriverManager.getInstance(), 10).until(
-				ExpectedConditions.presenceOfNestedElementLocatedBy(currentContext, By.xpath(IMPORTANT_MESSAGE_ELEM)));
+		importanceMarker.scriptClick();
+		try {
+			new WebDriverWait(DriverManager.getInstance(), 10).until(ExpectedConditions
+					.presenceOfNestedElementLocatedBy(currentContext, By.xpath(IMPORTANT_MESSAGE_ELEM)));
+		} catch (StaleElementReferenceException e) {
+			logger.info("handle");
+		}
+		
 	}
 
 	public void clickOnMarker() {
 		logger.debug("clickOnMarker method");
-		JavascriptExecutor js = (JavascriptExecutor) DriverManager.getInstance();
-		js.executeScript("arguments[0].click();", checkBox);
+		checkBox.scriptClick();
 	}
 
 	public String getDate() {
